@@ -1,0 +1,59 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+	<groupId>com.synechron.automation</groupId>
+	<artifactId>WindowsAutomation</artifactId>
+	<version>0.0.1-SNAPSHOT</version>
+	<name>Windows LDTP Automation</name>
+	<description>Automate Windows Applications with Opensource tool</description>
+	<dependencies>
+		<!-- https://mvnrepository.com/artifact/com.googlecode.cobra-winldtp/ldtp -->
+		<dependency>
+			<groupId>com.googlecode.cobra-winldtp</groupId>
+			<artifactId>ldtp</artifactId>
+			<version>4.0</version>
+		</dependency>
+		<!-- https://mvnrepository.com/artifact/commons-codec/commons-codec -->
+		<dependency>
+			<groupId>commons-codec</groupId>
+			<artifactId>commons-codec</artifactId>
+			<version>1.11</version>
+		</dependency>
+		<!-- https://mvnrepository.com/artifact/ws-commons-util/ws-commons-util -->
+		<dependency>
+			<groupId>ws-commons-util</groupId>
+			<artifactId>ws-commons-util</artifactId>
+			<version>1.0.1</version>
+		</dependency>
+		<!-- https://mvnrepository.com/artifact/org.apache.xmlrpc/xmlrpc-client -->
+		<dependency>
+			<groupId>org.apache.xmlrpc</groupId>
+			<artifactId>xmlrpc-client</artifactId>
+			<version>3.1.3</version>
+		</dependency>
+		<!-- https://mvnrepository.com/artifact/org.apache.xmlrpc/xmlrpc-common -->
+		<dependency>
+			<groupId>org.apache.xmlrpc</groupId>
+			<artifactId>xmlrpc-common</artifactId>
+			<version>3.1.3</version>
+		</dependency>
+		<!-- https://mvnrepository.com/artifact/commons-logging/commons-logging -->
+		<dependency>
+			<groupId>commons-logging</groupId>
+			<artifactId>commons-logging</artifactId>
+			<version>1.2</version>
+		</dependency>
+		<!-- https://mvnrepository.com/artifact/commons-logging/commons-logging -->
+		<dependency>
+			<groupId>commons-logging</groupId>
+			<artifactId>commons-logging</artifactId>
+			<version>1.2</version>
+		</dependency>
+		<!-- https://mvnrepository.com/artifact/commons-logging/commons-logging-api -->
+		<dependency>
+			<groupId>commons-logging</groupId>
+			<artifactId>commons-logging-api</artifactId>
+			<version>1.1</version>
+		</dependency>
+	</dependencies>
+</project>
